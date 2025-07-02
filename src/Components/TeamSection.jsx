@@ -1,6 +1,6 @@
 // src/components/TeamSection.jsx
 import React from 'react';
-import TeamMemberCard from './teamMemberCard';
+import TeamMemberCard from './TeamMemberCard';
 import teamMembers from '../data/teamData';
 
 function TeamSection() {
