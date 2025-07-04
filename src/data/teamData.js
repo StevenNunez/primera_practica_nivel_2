@@ -1,4 +1,3 @@
-// src/data/teamData.js
 const teamMembers = [
   {
     id: 1,

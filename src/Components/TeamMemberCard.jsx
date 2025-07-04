@@ -1,4 +1,3 @@
-// src/components/TeamMemberCard.jsx
 import React from 'react';
 
 function TeamMemberCard({ name, role, photo, isMiddle }) {
@@ -8,10 +7,10 @@ function TeamMemberCard({ name, role, photo, isMiddle }) {
         <img
           src={photo}
           alt={name}
-          className="w- h-full object-cover rounded-lg shadow-md"
+          className="w-60 h-100 object-cover rounded-lg shadow-md"
         />
-        <div className="absolute top-0 right-[-0.5rem] h-full flex items-start">
-          <p className="text-white text-sm font-medium transform -rotate-270 origin-top-right whitespace-nowrap">
+        <div className="">
+          <p className="text-[12px] rotate-90 left-55 absolute top-9 text-white">
             {role}
           </p>
         </div>
